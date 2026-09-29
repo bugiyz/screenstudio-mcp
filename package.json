@@ -1,0 +1,20 @@
+{
+  "name": "screenstudio-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for controlling Screen Studio through screenstudio-agent",
+  "type": "module",
+  "bin": {
+    "screenstudio-mcp": "./src/index.mjs"
+  },
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.2",
+    "zod": "^3.25.76"
+  },
+  "engines": {
+    "node": ">=21"
+  },
+  "license": "MIT"
+}
