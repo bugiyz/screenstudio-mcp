@@ -148,3 +148,4 @@ That gives the agent a verification loop instead of blindly adding zooms.
 ## License
 
 MIT
+# screenstudio-mcp
